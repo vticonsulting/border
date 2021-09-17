@@ -2,7 +2,7 @@ const border = (options) => {
   let elements = document.querySelectorAll(".border");
 
   if (options.borderType === "thick") {
-    options.borderType = "3px";
+    options.borderType = "4px";
   } else {
     options.borderType = "1px";
   }
